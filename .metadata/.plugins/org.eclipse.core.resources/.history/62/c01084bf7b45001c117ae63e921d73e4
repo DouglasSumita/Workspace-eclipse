@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		Double peso;
+		String x;
+		
+		System.out.println("Digito seu nome:");
+		x = scanner.next();
+		
+		System.out.println("Digito seu peso:");
+		peso = scanner.nextDouble();
+		
+		System.out.println("Nome: " + x);
+		System.out.printf("Peso: %.2f%n", peso);
+		scanner.close();
+
+	}
+
+}

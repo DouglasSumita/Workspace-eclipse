@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ExpressaoTernaria {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int value = sc.nextInt();
+		String typeDay;
+		
+		typeDay = (value == 7 || value == 1) ? "Fim de semana" : "Dia normal";
+		System.out.println("Tipo do dia digitado: " + typeDay);
+		sc.close();
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package entities;
+
+public class Student {
+    
+	public String name;
+	public double noteA;
+	public double noteB;
+	public double noteC;
+	
+	public double totalGrades() {
+		return noteA + noteB + noteC;
+	}
+	
+	public boolean sucess() {
+		return totalGrades() >= 60.00;
+	}
+	
+	public toString() {
+		
+        String result = "FINAL GRADE = ";
+        
+		if (sucess()) {
+			return 
+		}
+	}
+}
